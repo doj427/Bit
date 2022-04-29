@@ -114,8 +114,8 @@ public class ProjectController {
 	log.info("register: " + account);
 	
 	service.register(account);
-	
-	rttr.addFlashAttribute("result", account.name());
+//	
+//	rttr.addFlashAttribute("result", account);
 	
 	return "redirect:/Bit/list";
 	}

@@ -70,6 +70,11 @@
 
 								<section>
 									<h3 class="major">Form</h3>
+
+																		
+									
+									
+									
 									<form method="post" action="/project/register">
 											
 <!-- 										열맞춤에 관한 class 속성주기 -->
