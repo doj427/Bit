@@ -112,12 +112,13 @@ public class ProjectController {
 	public String register(BitVO account, RedirectAttributes rttr) {
 	
 	log.info("register: " + account);
+	System.out.println(account.getPassword());
 	
 	service.register(account);
 //	
-//	rttr.addFlashAttribute("result", account);
+	rttr.addFlashAttribute("result", account);
 	
-	return "redirect:/Bit/list";
+	return "redirect:/project/list";
 	}
 
 

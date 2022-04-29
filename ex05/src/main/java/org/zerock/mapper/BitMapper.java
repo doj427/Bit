@@ -12,7 +12,7 @@ public interface BitMapper {
 	public List<BitVO> getList();
 	
 	
-	public List<BitVO> insert(BitVO account);
+	public  Integer insert(BitVO account);
 
 
 	public void insertSelectKey(BitVO account);

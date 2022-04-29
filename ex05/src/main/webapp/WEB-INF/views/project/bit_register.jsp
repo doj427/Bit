@@ -74,7 +74,7 @@
 																		
 									
 									
-									
+<!-- 								controller에 보내는 코드 -->
 									<form method="post" action="/project/register">
 											
 <!-- 										열맞춤에 관한 class 속성주기 -->
@@ -83,17 +83,17 @@
 										<div >
 											<div class="col-6 col-12-xsmall">
 												<label for="demo-name">Name</label>
-												<input type="name" name="demo-name" id="demo-name" value="" />
+												<input type="text" name="name"  >
 											</div>
 											<div class="col-6 col-12-xsmall">
 												<label for="demo-email">Email</label>
-												<input type="mail" name="demo-email" id="demo-email" value="" />
+												<input type="text" name="mail"   >
 											</div>
 											<div class="col-6 col-12-xsmall">
 												<label for="demo-password">password</label>
-												<input type="password" name="demo-password" id="demo-password" value="" />
+												<input type="text" name="password" >
 											</div>
-											<br>
+										<br>
 											
 <!-- 											<div class="col-12"> -->
 <!-- 												<label for="demo-category">Category</label> -->
@@ -129,6 +129,9 @@
 <!-- 												<label for="demo-message">Message</label> -->
 <!-- 												<textarea name="demo-message" id="demo-message" rows="6"></textarea> -->
 <!-- 											</div> -->
+
+
+
 											<div class="col-12">
 												<ul class="actions">
 													<li><input type="submit" value="Send Message" class="primary" /></li>
